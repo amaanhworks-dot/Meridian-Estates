@@ -19,21 +19,20 @@ export function Hero() {
         className="absolute inset-0 h-full w-full object-cover"
         fetchPriority="high"
       />
-      {/* Dark gradient overlays for readability */}
       <div className="absolute inset-0 bg-gradient-to-b from-[#0A0A0C]/80 via-[#0A0A0C]/55 to-[#0A0A0C]" />
       <div className="absolute inset-0 bg-gradient-to-r from-[#0A0A0C]/80 via-transparent to-transparent" />
 
       <div className="relative mx-auto w-full max-w-7xl px-4 pt-24 pb-20 sm:px-6 sm:pt-28 lg:px-8">
         <div className="max-w-2xl">
           <p className="mb-5 font-cinzel text-[11px] sm:text-xs tracking-[0.35em] uppercase text-[#D4AF37]/90">
-            Delhi NCR · Private Listings
+            Beverly Hills · Private Listings
           </p>
           <h1 className="font-playfair text-3xl leading-tight text-white sm:text-5xl lg:text-6xl">
-            Off-Market Luxury Residences &amp; Prime Builder Floors
+            Off-Market Luxury Residences &amp; Architecturally Significant Homes
           </h1>
           <p className="mt-5 max-w-xl font-sans text-sm leading-relaxed text-white/70 sm:text-base lg:text-lg">
-            Curated ₹3 Cr+ Portfolio for Discerning Buyers across South Delhi &amp;
-            Gurgaon.
+            Curated $5M+ Portfolio for Discerning Buyers across Beverly Hills,
+            Bel Air, Brentwood &amp; Malibu.
           </p>
 
           <button
